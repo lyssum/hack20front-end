@@ -1,6 +1,15 @@
 .Welcome {
-  width: 500px;
-  height: 200px;
-  background-color: grey;
-  top:0;
+  width: 900px;
+  height: 400px;
+  background-color: lightblue;
+  margin-top: 3%;
+  margin-left: 5%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Welcome p {
+  font-size: 5em;
 }

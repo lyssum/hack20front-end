@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import Sidebar from "../../Components/Sidebar/Sidebar";
+import classes from "./Layout.module.css";
 
 class Layout extends Component {
   render() {
     return(
-      <div>
+      <div className={classes.Layout}>
         <Sidebar></Sidebar>
-        <p>Search!</p>
         {this.props.children}
       </div>
     )
