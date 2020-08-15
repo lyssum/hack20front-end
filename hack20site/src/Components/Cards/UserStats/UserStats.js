@@ -1,8 +1,9 @@
 import React from 'react';
+import classes from "./UserStats.module.css";
 
 const userstats = (props) => {
   return(
-    <div>
+    <div className={classes.UserStats}>
       <p>{props.age}</p>
       <p>{props.height}</p>
       <p>{props.weight}</p>

@@ -1,4 +1,4 @@
 .Cards {
-  width: 80%;
-  display: inline-block;
+  width: 100%;
+  display: flex;
 }
