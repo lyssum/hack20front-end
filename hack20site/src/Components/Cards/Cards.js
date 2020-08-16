@@ -14,7 +14,7 @@ const cards = (props) => {
         <WorkoutCompletion text="complete" num="5"/>
         <WorkoutCompletion num="1"/>
       </div>
-      <div className={classes.Row}>
+      <div className={classes.RowButtons}>
         <Button
           text="Host workout"
         />
