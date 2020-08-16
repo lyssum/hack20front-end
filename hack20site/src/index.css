@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Sidebar{
+  background-color: darkblue;
+
+  height: 70vh;
+  border-radius: 15px;
+}
+
+.Cards {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.Button{
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Welcome Page */
+.Welcome {
+  width: 800px;
+  height: 200px;
+  background-color: lightblue;
+  margin-top: 3%;
+  margin-left: 5%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Welcome p {
+  font-size: 5em;
+}
+
+/* Workout Page */
+.WorkoutCompletion {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  margin: 10% 1% auto ;
+  border-radius: 10px;
+}
+
+.Num {
+  font-size: 4em;
+}
+
+/* WeekPlan */
+.WeekPlan {
+  width: 100%;
+}

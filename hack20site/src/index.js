@@ -10,6 +10,10 @@ import 'firebase/auth';
 import 'firebase/database';
 import 'firebase/analytics';
 
+// CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+
   // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyBrbhlGi66o5ngxGI0gQYdX0OKGMKc6Qvc",
