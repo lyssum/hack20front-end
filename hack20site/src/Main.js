@@ -7,8 +7,8 @@ import SignUpForm from "./SignUpForm";
 class Main extends Component {
     constructor(props) {
         super(props);
-    
-        // User information 
+
+        // User information
         this.state = {
             name: "Kevin"
         }
@@ -18,7 +18,7 @@ class Main extends Component {
     return(
       <div>
         <main>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-2">
                         <Sidebar/>
