@@ -66,6 +66,10 @@ code {
   font-size: 4em;
 }
 
+.Row {
+  display: flex;
+}
+
 /* WeekPlan */
 .WeekPlan {
   width: 100%;

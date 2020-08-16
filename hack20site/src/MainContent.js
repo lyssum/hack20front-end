@@ -8,14 +8,15 @@ import Button from "./Button";
 export default class MainContent extends Component {
     render() {
         return (
-            <div className="Cards">
-              <div className="Row">
-                <Welcome name={this.props.name}/>
-                <WorkoutCompletion text="complete" num="5"/>
-                <WorkoutCompletion num="1"/>
+            <div className="row">
+              <div className="col-9">
+                  <Welcome name={this.props.name}/>
               </div>
-
-              <div className="Button">
+              <div className="col-3">
+                  <WorkoutCompletion text="complete" num="5"/>
+                  <WorkoutCompletion num="1"/>
+              </div>
+              <div className="row">
                 <Button
                   text="Host workout"
                 />
