@@ -9,7 +9,7 @@ export default class MainContent extends Component {
     render() {
         return (
             <div className="Cards">
-              <div className="Row">
+              <div>
                 <Welcome name={this.props.name}/>
                 <WorkoutCompletion text="complete" num="5"/>
                 <WorkoutCompletion num="1"/>
