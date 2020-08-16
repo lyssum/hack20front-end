@@ -1,4 +1,13 @@
 .Cards {
   width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.Row {
+  width: 100%;
+  height: 33%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
